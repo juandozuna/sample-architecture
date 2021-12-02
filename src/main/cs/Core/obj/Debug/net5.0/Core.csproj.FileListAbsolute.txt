@@ -1,0 +1,13 @@
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/bin/Debug/net5.0/Wepsys.Polux.Sample.Core.xml
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/bin/Debug/net5.0/Wepsys.Polux.Sample.Core.deps.json
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/bin/Debug/net5.0/Wepsys.Polux.Sample.Core.dll
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/bin/Debug/net5.0/ref/Wepsys.Polux.Sample.Core.dll
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/bin/Debug/net5.0/Wepsys.Polux.Sample.Core.pdb
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/obj/Debug/net5.0/Core.csproj.AssemblyReference.cache
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/obj/Debug/net5.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/obj/Debug/net5.0/Core.AssemblyInfoInputs.cache
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/obj/Debug/net5.0/Core.AssemblyInfo.cs
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/obj/Debug/net5.0/Core.csproj.CoreCompileInputs.cache
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/obj/Debug/net5.0/Wepsys.Polux.Sample.Core.dll
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/obj/Debug/net5.0/ref/Wepsys.Polux.Sample.Core.dll
+/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/obj/Debug/net5.0/Wepsys.Polux.Sample.Core.pdb

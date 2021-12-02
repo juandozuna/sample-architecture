@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Wepsys.Polux.Sample.Core</RootNamespace>
+        <AssemblyName>Wepsys.Polux.Sample.Core</AssemblyName>
+        <Nullable>enable</Nullable>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <AnalysisLevel>latest</AnalysisLevel>
+        <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Optional" Version="4.0.0" />
+        <PackageReference Include="Triplex.ProtoDomainPrimitives" Version="2.5.0" />
+        <PackageReference Include="Triplex.Validations" Version="2.0.0" />
+        <PackageReference Include="Wepsys.Core" Version="1.0.9" />
+    </ItemGroup>
+
+</Project>

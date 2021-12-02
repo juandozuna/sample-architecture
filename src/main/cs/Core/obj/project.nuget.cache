@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "a73EwbvRpawuMQc7IHypiGrj98pq+Mx6ov1suWu5eXSoktXWY9D145EJAOJ8Jph1AHvQv6GnJaqgOpv3Q4DmWQ==",
+  "success": true,
+  "projectFilePath": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/Core.csproj",
+  "expectedPackageFiles": [
+    "/home/juan/.nuget/packages/optional/4.0.0/optional.4.0.0.nupkg.sha512",
+    "/home/juan/.nuget/packages/triplex.protodomainprimitives/2.5.0/triplex.protodomainprimitives.2.5.0.nupkg.sha512",
+    "/home/juan/.nuget/packages/triplex.validations/2.0.0/triplex.validations.2.0.0.nupkg.sha512",
+    "/home/juan/.nuget/packages/wepsys.core/1.0.9/wepsys.core.1.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

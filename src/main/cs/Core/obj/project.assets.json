@@ -1,0 +1,197 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Optional/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Optional.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Optional.dll": {}
+        }
+      },
+      "Triplex.ProtoDomainPrimitives/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Triplex.Validations": "1.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Triplex.ProtoDomainPrimitives.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Triplex.ProtoDomainPrimitives.dll": {}
+        }
+      },
+      "Triplex.Validations/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Triplex.Validations.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Triplex.Validations.dll": {}
+        }
+      },
+      "Wepsys.Core/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "Optional": "4.0.0",
+          "Triplex.ProtoDomainPrimitives": "2.5.0",
+          "Triplex.Validations": "2.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Wepsys.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Wepsys.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Optional/4.0.0": {
+      "sha512": "Q9NdZ39K/tPuV8JDs6ntRxW3idN9J4jSoBK/2ovld+Gh8if4Yhs+OTPvI84mN5YGAI3pzbhLcNUrm+VFKutC3Q==",
+      "type": "package",
+      "path": "optional/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Optional.dll",
+        "lib/net35/Optional.xml",
+        "lib/net45/Optional.dll",
+        "lib/net45/Optional.xml",
+        "lib/netstandard1.0/Optional.dll",
+        "lib/netstandard1.0/Optional.xml",
+        "lib/netstandard2.0/Optional.dll",
+        "lib/netstandard2.0/Optional.xml",
+        "optional.4.0.0.nupkg.sha512",
+        "optional.nuspec"
+      ]
+    },
+    "Triplex.ProtoDomainPrimitives/2.5.0": {
+      "sha512": "wVi1e43QvxvS9CzxO9scY1J1VqYtRCv13D8Pz6eQ7pLgNQYtwOrMHbiYcDmFif/DT+QinXrZJYrbCIM8VHBNWQ==",
+      "type": "package",
+      "path": "triplex.protodomainprimitives/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net5.0/Triplex.ProtoDomainPrimitives.dll",
+        "lib/net5.0/Triplex.ProtoDomainPrimitives.xml",
+        "triplex.protodomainprimitives.2.5.0.nupkg.sha512",
+        "triplex.protodomainprimitives.nuspec"
+      ]
+    },
+    "Triplex.Validations/2.0.0": {
+      "sha512": "UihrHibdexasIYpA1OgLx7ukJp5KzT9evfz9/KYdKm5fcYmMSUhHF2feiEl5eXpJxbsrRqEyoW2MNIVZ0pJEHQ==",
+      "type": "package",
+      "path": "triplex.validations/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net5.0/Triplex.Validations.dll",
+        "lib/net5.0/Triplex.Validations.xml",
+        "triplex.validations.2.0.0.nupkg.sha512",
+        "triplex.validations.nuspec"
+      ]
+    },
+    "Wepsys.Core/1.0.9": {
+      "sha512": "377CxikwHKW+KPegO+t2TsZrWMbMuicA+yOBccBdi/AOe7sf13LpN0qdQRiOFX9F24Try2Bqcp/3UDKi8xEQtQ==",
+      "type": "package",
+      "path": "wepsys.core/1.0.9",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net5.0/Wepsys.Core.dll",
+        "lib/net5.0/Wepsys.Core.xml",
+        "wepsys.core.1.0.9.nupkg.sha512",
+        "wepsys.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Optional >= 4.0.0",
+      "Triplex.ProtoDomainPrimitives >= 2.5.0",
+      "Triplex.Validations >= 2.0.0",
+      "Wepsys.Core >= 1.0.9"
+    ]
+  },
+  "packageFolders": {
+    "/home/juan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/Core.csproj",
+      "projectName": "Wepsys.Polux.Sample.Core",
+      "projectPath": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/Core.csproj",
+      "packagesPath": "/home/juan/.nuget/packages/",
+      "outputPath": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/juan/Desktop/repositories/demo_arquiteecture/src/nuget.config",
+        "/home/juan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/wepsys/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Optional": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "Triplex.ProtoDomainPrimitives": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          },
+          "Triplex.Validations": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "Wepsys.Core": {
+            "target": "Package",
+            "version": "[1.0.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
