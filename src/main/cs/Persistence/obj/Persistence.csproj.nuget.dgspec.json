@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Persistence/Persistence.csproj": {}
+  },
+  "projects": {
+    "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/Core.csproj",
+        "projectName": "Wepsys.Polux.Sample.Core",
+        "projectPath": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/Core.csproj",
+        "packagesPath": "/home/juan/.nuget/packages/",
+        "outputPath": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/juan/Desktop/repositories/demo_arquiteecture/src/nuget.config",
+          "/home/juan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/wepsys/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Optional": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Triplex.ProtoDomainPrimitives": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Triplex.Validations": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Wepsys.Core": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Persistence/Persistence.csproj",
+        "projectName": "Wepsys.Polux.Sample.Persistence",
+        "projectPath": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Persistence/Persistence.csproj",
+        "packagesPath": "/home/juan/.nuget/packages/",
+        "outputPath": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/juan/Desktop/repositories/demo_arquiteecture/src/nuget.config",
+          "/home/juan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/wepsys/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/Core.csproj": {
+                "projectPath": "/home/juan/Desktop/repositories/demo_arquiteecture/src/main/cs/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

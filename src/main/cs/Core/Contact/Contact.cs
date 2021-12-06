@@ -13,11 +13,14 @@ namespace Wepsys.Polux.Sample.Core.Contact
     {
         private Contact(Builder builder)
         {
+            Id = builder.IdOption.ValueOrFailure();
             Name = builder.NameOption.ValueOrFailure();
             LastName = builder.LastNameOption.ValueOrFailure();
             Email = builder.EmailOption;
             Phone = builder.PhoneOption;
         }
+
+        public Id Id { get; }
 
         /// <summary>
         ///
@@ -45,6 +48,7 @@ namespace Wepsys.Polux.Sample.Core.Contact
         public sealed class Builder : AbstractEntityBuilder<Contact>
         {
 
+            internal Option<Id> IdOption { get; set; }
             internal Option<Name> NameOption { get; private set; }
             internal Option<LastName> LastNameOption { get; private set; }
             internal Option<Email> EmailOption { get; private set; }
@@ -82,6 +86,15 @@ namespace Wepsys.Polux.Sample.Core.Contact
             public Builder WithPhone(Phone phone)
                 => SetProperty(() => PhoneOption = Arguments.NotNull(phone, nameof(phone)).SomeNotNull());
 
+
+            /// <summary>
+            ///
+            /// </summary>
+            /// <param name="id"></param>
+            /// <returns></returns>
+            public Builder WithId(Id id)
+                => SetProperty(() => IdOption = Arguments.NotNull(id, nameof(id)).SomeNotNull());
+
             /// <summary>
             ///
             /// </summary>
@@ -90,6 +103,7 @@ namespace Wepsys.Polux.Sample.Core.Contact
             {
                 State.IsTrue(NameOption.HasValue, nameof(NameOption));
                 State.IsTrue(LastNameOption.HasValue, nameof(LastNameOption));
+                State.IsTrue(IdOption.HasValue, nameof(IdOption));
 
                 return new Contact(this);
             }

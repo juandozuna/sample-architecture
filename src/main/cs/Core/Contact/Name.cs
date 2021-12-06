@@ -19,7 +19,7 @@ namespace Wepsys.Polux.Sample.Core.Contact
         /// <summary>
         ///
         /// </summary>
-        public const int MaxLength = 30;
+        public const int MaxLength = 100;
 
         protected override ConfigurableString InnerValue { get; }
 
